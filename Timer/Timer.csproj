@@ -5,10 +5,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <Platforms>AnyCPU;x64</Platforms>
-    <Authors>Konrad Wroński</Authors>
+    <Authors>Konrad Wroński, Artur Daren</Authors>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <StartupObject>Timer.Program</StartupObject>
+    <Company>KonSoftware</Company>
+    <Product>Easy WorkTime Counter</Product>
+    <Description>Software for worktime mesurement</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>Easy-WorkTime-Counter</PackageId>
+    <RepositoryUrl>https://github.com/konekwronek/Easy-WorkTime-Counter</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
