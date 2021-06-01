@@ -57,4 +57,488 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelElapsedTime.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>119, 37</value>
+  </data>
+  <data name="&gt;&gt;buttonStopReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkTopMost.Name" xml:space="preserve">
+    <value>checkTopMost</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBoxStop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="numericUpDownSeconds.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="checkTopMost.Text" xml:space="preserve">
+    <value>Top Window</value>
+  </data>
+  <data name="&gt;&gt;labelElapsedTime.Name" xml:space="preserve">
+    <value>labelElapsedTime</value>
+  </data>
+  <data name="&gt;&gt;checkTopMost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkTopMost.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRing.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>8, 42</value>
+  </data>
+  <data name="checkBoxMessage.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;buttonStopReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRing.Name" xml:space="preserve">
+    <value>checkBoxRing</value>
+  </data>
+  <data name="buttonStart.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>205, 8</value>
+  </data>
+  <data name="checkBoxReset.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelElapsedTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>55, 15</value>
+  </data>
+  <data name="buttonStopReset.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="richTextBoxMessage.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>383, 29</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownSeconds.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxMessage.Name" xml:space="preserve">
+    <value>richTextBoxMessage</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Elapsed time:</value>
+  </data>
+  <data name="&gt;&gt;timer2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>9</value>
+  </data>
+  <data name="buttonStopReset.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>110, 25</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Set Time:</value>
+  </data>
+  <data name="checkBoxStop.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>247, 41</value>
+  </data>
+  <data name="numericUpDownHours.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxReset.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>6, 72</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12px</value>
+  </data>
+  <data name="labelElapsedTime.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 27px</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>403, 146</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>7, 15</value>
+  </data>
+  <data name="richTextBoxMessage.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>8, 109</value>
+  </data>
+  <data name="checkTopMost.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>92, 19</value>
+  </data>
+  <data name="numericUpDownHours.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="buttonStart.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>71, 25</value>
+  </data>
+  <data name="checkBoxStop.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxRing.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>70, 41</value>
+  </data>
+  <data name="checkBoxReset.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="numericUpDownHours.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>72, 8</value>
+  </data>
+  <data name="checkTopMost.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStop.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="checkBoxRing.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>50, 19</value>
+  </data>
+  <data name="numericUpDownRingTime.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="numericUpDownRingTime.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>115, 8</value>
+  </data>
+  <data name="checkBoxReset.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>308, 41</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Name" xml:space="preserve">
+    <value>buttonStart</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxMessage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="buttonStart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStop.Name" xml:space="preserve">
+    <value>checkBoxStop</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHours.Name" xml:space="preserve">
+    <value>numericUpDownHours</value>
+  </data>
+  <data name="checkBoxMessage.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>125, 41</value>
+  </data>
+  <data name="checkTopMost.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>270, 78</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMessage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRing.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 16px</value>
+  </data>
+  <data name="checkBoxStop.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHours.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkBoxStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>101, 21</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownSeconds.Name" xml:space="preserve">
+    <value>numericUpDownSeconds</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelElapsedTime.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="buttonStopReset.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMessage.Name" xml:space="preserve">
+    <value>checkBoxMessage</value>
+  </data>
+  <data name="labelElapsedTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkTopMost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownRingTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxStop.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>50, 19</value>
+  </data>
+  <data name="numericUpDownSeconds.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>40, 23</value>
+  </data>
+  <data name="checkBoxRing.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelElapsedTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonStart.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12px</value>
+  </data>
+  <data name="buttonStopReset.Text" xml:space="preserve">
+    <value>Stop and Reset</value>
+  </data>
+  <data name="checkBoxMessage.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="numericUpDownRingTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownRingTime.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="buttonStopReset.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>281, 8</value>
+  </data>
+  <data name="numericUpDownRingTime.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>40, 23</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownSeconds.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numericUpDownSeconds.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>159, 8</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownRingTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHours.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBoxRing.Text" xml:space="preserve">
+    <value>Ring</value>
+  </data>
+  <data name="richTextBoxMessage.Text" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonStart.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxReset.Name" xml:space="preserve">
+    <value>checkBoxReset</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12px</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer2.Name" xml:space="preserve">
+    <value>timer2</value>
+  </data>
+  <data name="checkBoxMessage.Text" xml:space="preserve">
+    <value>Show Message</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormMain</value>
+  </data>
+  <data name="buttonStopReset.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12px</value>
+  </data>
+  <data name="checkBoxMessage.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>104, 19</value>
+  </data>
+  <data name="&gt;&gt;buttonStopReset.Name" xml:space="preserve">
+    <value>buttonStopReset</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkBoxRing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>8, 12</value>
+  </data>
+  <data name="checkBoxRing.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="numericUpDownSeconds.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="checkBoxMessage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="checkBoxReset.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>54, 19</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Easy WorkTime Counter</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;checkTopMost.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelElapsedTime.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownRingTime.Name" xml:space="preserve">
+    <value>numericUpDownRingTime</value>
+  </data>
+  <data name="buttonStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelElapsedTime.Text" xml:space="preserve">
+    <value>00:00:00</value>
+  </data>
+  <data name="richTextBoxMessage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="numericUpDownHours.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>40, 23</value>
+  </data>
+  <data name="labelElapsedTime.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>On time:</value>
+  </data>
+  <data name="checkTopMost.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBoxMessage.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>10</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>53, 15</value>
+  </data>
+  <data name="&gt;&gt;buttonStopReset.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="numericUpDownRingTime.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12px</value>
+  </data>
+  <data name="checkBoxReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="labelElapsedTime.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>133, 65</value>
+  </data>
+  <data name="checkBoxReset.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en</value>
+  </metadata>
 </root>
