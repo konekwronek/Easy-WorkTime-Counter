@@ -223,6 +223,11 @@
             0,
             0,
             0});
+            this.numericUpDownSeconds.Minimum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownSeconds.Name = "numericUpDownSeconds";
             this.numericUpDownSeconds.Size = new System.Drawing.Size(35, 23);
             this.numericUpDownSeconds.TabIndex = 1;

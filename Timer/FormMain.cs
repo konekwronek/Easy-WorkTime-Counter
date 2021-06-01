@@ -136,6 +136,8 @@ namespace Timer
         private void numericUpDownSeconds_ValueChanged(object sender, EventArgs e)
         {
             if (numericUpDownSeconds.Value == 60) numericUpDownSeconds.Value = 0;
+            if (numericUpDownSeconds.Value == -5) numericUpDownSeconds.Value = 55;
+
         }
 
         private void numericUpDownHours_Enter(object sender, EventArgs e)
