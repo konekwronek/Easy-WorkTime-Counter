@@ -45,8 +45,10 @@
             this.checkBoxMessage = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.numericUpDownSeconds = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownHours = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRingTime)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSeconds)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownHours)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -69,15 +71,20 @@
             // numericUpDownRingTime
             // 
             this.numericUpDownRingTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.numericUpDownRingTime.Location = new System.Drawing.Point(91, 8);
+            this.numericUpDownRingTime.Location = new System.Drawing.Point(104, 8);
             this.numericUpDownRingTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDownRingTime.Maximum = new decimal(new int[] {
-            9999,
+            60,
             0,
             0,
             0});
+            this.numericUpDownRingTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownRingTime.Name = "numericUpDownRingTime";
-            this.numericUpDownRingTime.Size = new System.Drawing.Size(45, 23);
+            this.numericUpDownRingTime.Size = new System.Drawing.Size(32, 23);
             this.numericUpDownRingTime.TabIndex = 0;
             this.numericUpDownRingTime.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             this.numericUpDownRingTime.Enter += new System.EventHandler(this.numericUpDown1_Enter);
@@ -103,9 +110,9 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.label2.Location = new System.Drawing.Point(8, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 15);
+            this.label2.Size = new System.Drawing.Size(55, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Set Time m s:";
+            this.label2.Text = "Set Time:";
             // 
             // checkBoxRing
             // 
@@ -221,11 +228,21 @@
             this.numericUpDownSeconds.TabIndex = 1;
             this.numericUpDownSeconds.ValueChanged += new System.EventHandler(this.numericUpDownSeconds_ValueChanged);
             // 
+            // numericUpDownHours
+            // 
+            this.numericUpDownHours.Location = new System.Drawing.Point(64, 8);
+            this.numericUpDownHours.Name = "numericUpDownHours";
+            this.numericUpDownHours.Size = new System.Drawing.Size(34, 23);
+            this.numericUpDownHours.TabIndex = 10;
+            this.numericUpDownHours.ValueChanged += new System.EventHandler(this.numericUpDownHours_ValueChanged);
+            this.numericUpDownHours.Enter += new System.EventHandler(this.numericUpDownHours_Enter);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 146);
+            this.Controls.Add(this.numericUpDownHours);
             this.Controls.Add(this.numericUpDownSeconds);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.checkBoxMessage);
@@ -249,6 +266,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRingTime)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSeconds)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownHours)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,6 +290,7 @@
         private System.Windows.Forms.CheckBox checkBoxMessage;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NumericUpDown numericUpDownSeconds;
+        private System.Windows.Forms.NumericUpDown numericUpDownHours;
     }
 }
 
