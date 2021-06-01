@@ -63,7 +63,7 @@
             this.buttonStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.Size = new System.Drawing.Size(71, 25);
-            this.buttonStart.TabIndex = 2;
+            this.buttonStart.TabIndex = 3;
             this.buttonStart.Text = "Start";
             this.buttonStart.UseVisualStyleBackColor = true;
             this.buttonStart.Click += new System.EventHandler(this.button1_Click);
@@ -85,7 +85,7 @@
             -2147483648});
             this.numericUpDownRingTime.Name = "numericUpDownRingTime";
             this.numericUpDownRingTime.Size = new System.Drawing.Size(32, 23);
-            this.numericUpDownRingTime.TabIndex = 0;
+            this.numericUpDownRingTime.TabIndex = 1;
             this.numericUpDownRingTime.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             this.numericUpDownRingTime.Enter += new System.EventHandler(this.numericUpDown1_Enter);
             // 
@@ -121,7 +121,7 @@
             this.checkBoxRing.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxRing.Name = "checkBoxRing";
             this.checkBoxRing.Size = new System.Drawing.Size(50, 19);
-            this.checkBoxRing.TabIndex = 4;
+            this.checkBoxRing.TabIndex = 5;
             this.checkBoxRing.Text = "Ring";
             this.checkBoxRing.UseVisualStyleBackColor = true;
             // 
@@ -132,7 +132,7 @@
             this.checkBoxStop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxStop.Name = "checkBoxStop";
             this.checkBoxStop.Size = new System.Drawing.Size(50, 19);
-            this.checkBoxStop.TabIndex = 6;
+            this.checkBoxStop.TabIndex = 7;
             this.checkBoxStop.Text = "Stop";
             this.checkBoxStop.UseVisualStyleBackColor = true;
             // 
@@ -153,7 +153,7 @@
             this.checkBoxReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxReset.Name = "checkBoxReset";
             this.checkBoxReset.Size = new System.Drawing.Size(54, 19);
-            this.checkBoxReset.TabIndex = 7;
+            this.checkBoxReset.TabIndex = 8;
             this.checkBoxReset.Text = "Reset";
             this.checkBoxReset.UseVisualStyleBackColor = true;
             // 
@@ -164,7 +164,7 @@
             this.buttonStopReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonStopReset.Name = "buttonStopReset";
             this.buttonStopReset.Size = new System.Drawing.Size(110, 25);
-            this.buttonStopReset.TabIndex = 3;
+            this.buttonStopReset.TabIndex = 4;
             this.buttonStopReset.Text = "Stop and Reset";
             this.buttonStopReset.UseVisualStyleBackColor = true;
             this.buttonStopReset.Click += new System.EventHandler(this.buttonStop_Click);
@@ -175,7 +175,7 @@
             this.richTextBoxMessage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBoxMessage.Name = "richTextBoxMessage";
             this.richTextBoxMessage.Size = new System.Drawing.Size(362, 29);
-            this.richTextBoxMessage.TabIndex = 9;
+            this.richTextBoxMessage.TabIndex = 10;
             this.richTextBoxMessage.Text = "Message";
             // 
             // checkTopMost
@@ -185,7 +185,7 @@
             this.checkTopMost.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkTopMost.Name = "checkTopMost";
             this.checkTopMost.Size = new System.Drawing.Size(92, 19);
-            this.checkTopMost.TabIndex = 8;
+            this.checkTopMost.TabIndex = 9;
             this.checkTopMost.Text = "Top Window";
             this.checkTopMost.UseVisualStyleBackColor = true;
             this.checkTopMost.CheckedChanged += new System.EventHandler(this.checkBoxMessage_CheckedChanged);
@@ -197,7 +197,7 @@
             this.checkBoxMessage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxMessage.Name = "checkBoxMessage";
             this.checkBoxMessage.Size = new System.Drawing.Size(104, 19);
-            this.checkBoxMessage.TabIndex = 5;
+            this.checkBoxMessage.TabIndex = 6;
             this.checkBoxMessage.Text = "Show Message";
             this.checkBoxMessage.UseVisualStyleBackColor = true;
             // 
@@ -230,7 +230,7 @@
             -2147483648});
             this.numericUpDownSeconds.Name = "numericUpDownSeconds";
             this.numericUpDownSeconds.Size = new System.Drawing.Size(35, 23);
-            this.numericUpDownSeconds.TabIndex = 1;
+            this.numericUpDownSeconds.TabIndex = 2;
             this.numericUpDownSeconds.ValueChanged += new System.EventHandler(this.numericUpDownSeconds_ValueChanged);
             // 
             // numericUpDownHours
@@ -238,7 +238,7 @@
             this.numericUpDownHours.Location = new System.Drawing.Point(64, 8);
             this.numericUpDownHours.Name = "numericUpDownHours";
             this.numericUpDownHours.Size = new System.Drawing.Size(34, 23);
-            this.numericUpDownHours.TabIndex = 10;
+            this.numericUpDownHours.TabIndex = 0;
             this.numericUpDownHours.ValueChanged += new System.EventHandler(this.numericUpDownHours_ValueChanged);
             this.numericUpDownHours.Enter += new System.EventHandler(this.numericUpDownHours_Enter);
             // 
