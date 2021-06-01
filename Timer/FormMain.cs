@@ -49,7 +49,7 @@ namespace Timer
             else timeText += seconds;
             labelElapsedTime.Text = timeText;
 
-            if (((hours*60)+minutes) == numericUpDownRingTime.Value && seconds == numericUpDownSeconds.Value)
+            if (hours == numericUpDownHours.Value && minutes == numericUpDownRingTime.Value && seconds == numericUpDownSeconds.Value)
             {
                 if (checkBoxRing.Checked)
                 {
@@ -100,6 +100,16 @@ namespace Timer
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
+            if (numericUpDownRingTime.Value == 60)
+            { 
+                numericUpDownRingTime.Value = 0;
+                numericUpDownHours.Value++;
+            }
+            if (numericUpDownRingTime.Value == -1)
+            { 
+                numericUpDownRingTime.Value = 59;
+                if (numericUpDownHours.Value > 0) numericUpDownHours.Value--;
+            }
         }
 
         private void timer1_Tick_1(object sender, EventArgs e)
@@ -126,6 +136,18 @@ namespace Timer
         private void numericUpDownSeconds_ValueChanged(object sender, EventArgs e)
         {
             if (numericUpDownSeconds.Value == 60) numericUpDownSeconds.Value = 0;
+            if (numericUpDownSeconds.Value == -5) numericUpDownSeconds.Value = 55;
+
+        }
+
+        private void numericUpDownHours_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDownHours_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
