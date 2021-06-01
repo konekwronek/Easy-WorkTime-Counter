@@ -59,7 +59,7 @@
             // buttonStart
             // 
             this.buttonStart.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.buttonStart.Location = new System.Drawing.Point(183, 8);
+            this.buttonStart.Location = new System.Drawing.Point(205, 8);
             this.buttonStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.Size = new System.Drawing.Size(71, 25);
@@ -71,7 +71,7 @@
             // numericUpDownRingTime
             // 
             this.numericUpDownRingTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.numericUpDownRingTime.Location = new System.Drawing.Point(104, 8);
+            this.numericUpDownRingTime.Location = new System.Drawing.Point(116, 8);
             this.numericUpDownRingTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDownRingTime.Maximum = new decimal(new int[] {
             60,
@@ -84,7 +84,7 @@
             0,
             -2147483648});
             this.numericUpDownRingTime.Name = "numericUpDownRingTime";
-            this.numericUpDownRingTime.Size = new System.Drawing.Size(32, 23);
+            this.numericUpDownRingTime.Size = new System.Drawing.Size(40, 23);
             this.numericUpDownRingTime.TabIndex = 1;
             this.numericUpDownRingTime.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             this.numericUpDownRingTime.Enter += new System.EventHandler(this.numericUpDown1_Enter);
@@ -160,7 +160,7 @@
             // buttonStopReset
             // 
             this.buttonStopReset.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.buttonStopReset.Location = new System.Drawing.Point(260, 8);
+            this.buttonStopReset.Location = new System.Drawing.Point(281, 8);
             this.buttonStopReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonStopReset.Name = "buttonStopReset";
             this.buttonStopReset.Size = new System.Drawing.Size(110, 25);
@@ -174,7 +174,7 @@
             this.richTextBoxMessage.Location = new System.Drawing.Point(8, 109);
             this.richTextBoxMessage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBoxMessage.Name = "richTextBoxMessage";
-            this.richTextBoxMessage.Size = new System.Drawing.Size(362, 29);
+            this.richTextBoxMessage.Size = new System.Drawing.Size(383, 29);
             this.richTextBoxMessage.TabIndex = 10;
             this.richTextBoxMessage.Text = "Message";
             // 
@@ -217,7 +217,7 @@
             0,
             0,
             0});
-            this.numericUpDownSeconds.Location = new System.Drawing.Point(142, 8);
+            this.numericUpDownSeconds.Location = new System.Drawing.Point(159, 8);
             this.numericUpDownSeconds.Maximum = new decimal(new int[] {
             60,
             0,
@@ -229,15 +229,15 @@
             0,
             -2147483648});
             this.numericUpDownSeconds.Name = "numericUpDownSeconds";
-            this.numericUpDownSeconds.Size = new System.Drawing.Size(35, 23);
+            this.numericUpDownSeconds.Size = new System.Drawing.Size(40, 23);
             this.numericUpDownSeconds.TabIndex = 2;
             this.numericUpDownSeconds.ValueChanged += new System.EventHandler(this.numericUpDownSeconds_ValueChanged);
             // 
             // numericUpDownHours
             // 
-            this.numericUpDownHours.Location = new System.Drawing.Point(64, 8);
+            this.numericUpDownHours.Location = new System.Drawing.Point(72, 8);
             this.numericUpDownHours.Name = "numericUpDownHours";
-            this.numericUpDownHours.Size = new System.Drawing.Size(34, 23);
+            this.numericUpDownHours.Size = new System.Drawing.Size(40, 23);
             this.numericUpDownHours.TabIndex = 0;
             this.numericUpDownHours.ValueChanged += new System.EventHandler(this.numericUpDownHours_ValueChanged);
             this.numericUpDownHours.Enter += new System.EventHandler(this.numericUpDownHours_Enter);
@@ -246,7 +246,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 146);
+            this.ClientSize = new System.Drawing.Size(403, 146);
             this.Controls.Add(this.numericUpDownHours);
             this.Controls.Add(this.numericUpDownSeconds);
             this.Controls.Add(this.label3);
@@ -267,7 +267,7 @@
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Timer";
+            this.Text = "Easy WorkTime Counter - KonSoftware";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRingTime)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSeconds)).EndInit();
